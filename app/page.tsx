@@ -201,12 +201,12 @@ export default function Portfolio() {
                 </div>
                 <h3 className="text-xl font-semibold text-white">
                   {clean(
-                    "Debezium Binlog CDC & Windowed ClickHouse Batching"
+                    "Windowed Kafka-to-ClickHouse Batching Engine"
                   )}
                 </h3>
                 <p className="text-sm text-slate-400 leading-relaxed">
                   {clean(
-                    "Architected real-time Change Data Capture (CDC) pipelines using Debezium to stream database binlog mutations into Kafka, paired with a windowed batch-accumulation and in-memory deduplication engine that eliminated single-record ClickHouse write bottlenecks across ~2M daily events while enforcing 8 formal ordering invariants."
+                    "Eliminated synchronous single-record database round-trip bottlenecks across ~2M daily Kafka events by designing a windowed batch-accumulation and in-memory entity deduplication layer. Enforced correctness invariants and flush-barrier synchronization across interleaved schema and data streams."
                   )}
                 </p>
               </div>
