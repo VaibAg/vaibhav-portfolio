@@ -444,7 +444,7 @@ export default function Portfolio() {
                   {clean("Software Engineer — LeadSquared")}
                 </h3>
                 <span className="text-xs font-mono text-slate-400">
-                  {clean("Jan 2021 – Mar 2024")}
+                  {clean("Dec 2021 – Mar 2024")}
                 </span>
               </div>
               <p className="text-sm text-slate-400 leading-relaxed">
@@ -463,7 +463,7 @@ export default function Portfolio() {
                   )}
                 </h3>
                 <span className="text-xs font-mono text-slate-400">
-                  {clean("Jan 2019 – Dec 2020")}
+                  {clean("Jan 2019 – Dec 2021")}
                 </span>
               </div>
               <p className="text-sm text-slate-400 leading-relaxed">
